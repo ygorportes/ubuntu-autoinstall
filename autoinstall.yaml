@@ -5,9 +5,9 @@ autoinstall:
         hostname: ubuntu-desktop
         username: diolinux
         password: 123
-    locale: pt_BR
+    locale: pt_BR.utf8
     keyboard:
-        layout: pt_BR
+        layout: pt_BR.utf8
         variant: qwerty    
     packages:
         - libreoffice
