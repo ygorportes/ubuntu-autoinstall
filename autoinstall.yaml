@@ -6,9 +6,9 @@ autoinstall:
         username: diolinux
         password: 123
     locale: pt_BR.utf8
-    keyboard:
-        layout: pt_BR.utf8
-        variant: qwerty    
+    #keyboard:
+        #layout: pt_BR.utf8
+        #variant: qwerty    
     packages:
         - libreoffice
         - gimp
