@@ -2,9 +2,10 @@
 autoinstall:
     version: 1
     identity:
+        realname: 'Dionatan Simioni'
         hostname: ubuntu-desktop
         username: diolinux
-        password: 123
+        password: '$y$j9T$uhkxlm8nUQaNu.6rl4k2d.$DIldpYy96OHg8lFjfXfc671BZcGWkPOmaDONGAhGSg3'
     locale: pt_BR.utf8
     #keyboard:
         #layout: pt_BR.utf8
