@@ -1,0 +1,18 @@
+#cloud-config
+autoinstall:
+    version: 1
+    identity:
+        hostname: ubuntu-desktop
+        username: diolinux
+        password: 123
+    locale: pt_BR
+    keyboard:
+        layout: pt_BR
+        variant: qwerty    
+    packages:
+        - libreoffice
+        - gimp
+    snaps:
+        - name: spotify
+          channel: stable
+          classic: true   
