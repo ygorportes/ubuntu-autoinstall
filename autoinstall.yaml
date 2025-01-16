@@ -10,7 +10,7 @@ autoinstall:
     keyboard:
         layout: br
         #variant: qwerty 
-    timezone: "America/Sao_paulo"   
+    timezone: "America/Sao_Paulo"   
     packages:
         - libreoffice
         - gimp
