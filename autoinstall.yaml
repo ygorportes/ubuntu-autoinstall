@@ -7,13 +7,24 @@ autoinstall:
         username: diolinux
         password: '$y$j9T$uhkxlm8nUQaNu.6rl4k2d.$DIldpYy96OHg8lFjfXfc671BZcGWkPOmaDONGAhGSg3'
     locale: pt_BR.utf8
-    #keyboard:
-        #layout: pt_BR.utf8
-        #variant: qwerty    
+    keyboard:
+        layout: br
+        #variant: qwerty 
+    timezone: "America/Sao_paulo"   
     packages:
         - libreoffice
         - gimp
+        - git
+        - wget
     snaps:
         - name: spotify
           channel: stable
-          classic: true   
+          classic: false
+    codecs:
+        install: true
+    drivers:
+        install: true
+    late-commands:
+     -  curtin in-target -- wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb /tmp
+     -  curtin in-target -- apt install /tmp google*.deb
+     
