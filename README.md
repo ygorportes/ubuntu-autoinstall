@@ -1,0 +1,1 @@
+Ubuntu autoinstall by Diolinux
